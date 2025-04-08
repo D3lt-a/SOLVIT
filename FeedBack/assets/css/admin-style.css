@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.admin-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+#feedback-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#feedback-table th, #feedback-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#feedback-table th {
+    background-color: #f0f0f0;
+}
+
+.positive-rating {
+    color: green;
+}
+
+.negative-rating {
+    color: red;
+}
+
+.neutral-rating {
+    color: orange;
+}
+
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.bar {
+    margin-bottom: 5px;
+}
